@@ -1,0 +1,12 @@
+.next
+.next*
+node_modules
+node_modules*
+out
+dist
+.git
+.env
+.env.*
+*.log
+*.tsbuildinfo
+package 2.json
