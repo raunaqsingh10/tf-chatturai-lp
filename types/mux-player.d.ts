@@ -1,9 +1,9 @@
-import type React from "react";
+import type { DetailedHTMLProps, HTMLAttributes } from "react";
 
-declare global {
+declare module "react" {
   namespace JSX {
     interface IntrinsicElements {
-      "mux-player": React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> & {
+      "mux-player": DetailedHTMLProps<HTMLAttributes<HTMLElement>, HTMLElement> & {
         "playback-id"?: string;
         "stream-type"?: string;
         poster?: string;
