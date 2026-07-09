@@ -1187,16 +1187,15 @@ footer .logo-img {
 
 .thank-hero {
   display: flex;
-  align-items: center;
   min-height: calc(100vh - 74px);
-  padding: 52px 0 58px;
+  padding: 34px 0 34px;
 }
 
 .thank-mark {
-  width: 54px;
-  height: 54px;
-  margin: 0 auto 24px;
-  border: 1.5px solid var(--ink);
+  width: 135px;
+  height: 135px;
+  margin: 0 auto 26px;
+  border: 2px solid var(--ink);
   border-radius: 50%;
   display: grid;
   place-items: center;
@@ -1204,11 +1203,11 @@ footer .logo-img {
 }
 
 .thank-mark span {
-  width: 19px;
-  height: 10px;
-  border-left: 1.8px solid var(--ink);
-  border-bottom: 1.8px solid var(--ink);
-  transform: translateY(-2px) rotate(-45deg);
+  width: 48px;
+  height: 25px;
+  border-left: 3px solid var(--ink);
+  border-bottom: 3px solid var(--ink);
+  transform: translateY(-5px) rotate(-45deg);
 }
 
 .thank-hero .eyebrow {
@@ -1247,7 +1246,7 @@ footer .logo-img {
 }
 
 .thank-section {
-  padding: 64px 0;
+  padding: 52px 0 64px;
   border-top: 1px solid var(--line-soft);
 }
 
@@ -1361,11 +1360,11 @@ footer .logo-img {
   }
 
   .thank-hero {
-    padding: 72px 0 84px;
+    padding: 46px 0 44px;
   }
 
   .thank-section {
-    padding: 84px 0;
+    padding: 66px 0 80px;
   }
 
   .thank-sub {

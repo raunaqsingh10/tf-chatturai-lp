@@ -9,6 +9,7 @@ dist
 .vercel
 *.log
 *.tsbuildinfo
-package 2.json
-next-env.d 2.ts
-tsconfig 2.json
+**/* 2.ts
+**/* 2.tsx
+**/* 2.d.ts
+**/* 2.json
