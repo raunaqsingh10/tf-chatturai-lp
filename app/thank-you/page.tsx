@@ -1,5 +1,4 @@
 import LandingEffects from "@/components/LandingEffects";
-import MetaLeadTracker from "@/components/MetaLeadTracker";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -33,7 +32,6 @@ export default function ThankYouPage() {
   return (
     <>
       <LandingEffects />
-      <MetaLeadTracker />
 
       <nav className="site-nav thank-nav" aria-label="Primary">
         <Link href="/" className="logo" aria-label="Chatturai home">
